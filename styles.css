@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.header{
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(./images/netflix_main.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.logo {
+  width: 13vw;
+  cursor: pointer;
+}
+
+nav button {
+  border: none;
+
+  background-color: #E50914;
+  color: #fff;
+  padding: 8px 17px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 16px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  width: 100%;
+  height: 38vh;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 3.6vw;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.header-content h2 {
+  font-size: 18px;
+  padding-bottom: 24px;
+  font-weight: 200;
+}
+
+.header-content h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.signup{
+  display: flex;
+  height: 6vh;
+  margin-top: 20px;
+}
+.email-signup {
+  background: rgba(135, 206, 250, 0.25);
+  color:white;
+  width: 350px;
+  border: 2px solid rgba(88, 177, 158, 0.9);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.signup-button {
+  background-color: #E50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 13px 27px;
+  font-weight: 500;
+}
+
+.feature{
+  background-color: black;
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+
+.feature-description h1{
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+
+.feature-description h3{
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.feature-tv {
+  position: relative;
+  width: 50%;
+  padding-top: 28%;
+}
+
+#tv-video-1, .tv-image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tv-image-1 {
+  z-index: 2;
+}
+
+#tv-video-1 {
+  z-index: 1;
+  width: 80%;
+  height: 80%;
+  left: 13%;
+  top: 10%;
+}
+
+.feature-break{
+  height: 8px;
+  background-color: rgb(35, 35, 35);
+  border: 0;
+}
+
+#tv-video-2, .tv-image-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tv-image-2 {
+  z-index: 2;
+}
+
+#tv-video-2 {
+  z-index: 1;
+  width: 60%;
+  height: 60%;
+  left: 19.5%;
+  top: 5%;
+}
+.feature-static-image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.kid-image{
+  width: 80%;
+}
+
+
+.mobile-image-1 {
+  width: 100%;
+  display: block;
+}
+
+.mobile-box {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 80%;
+  height: 20%;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-image-2 {
+  width: 10%;
+}
+.mobile-text {
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.mobile-box h3 {
+  font-size: medium;
+  font-weight: bold;
+}
+.mobile-text p{
+  color: rgb(25, 88, 155);
+}
+.mobile-image-3 {
+  width: 15%;
+  padding-right: 10px;
+}
