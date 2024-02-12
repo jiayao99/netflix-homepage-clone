@@ -1,1 +1,1 @@
-![Demo](https://github.com/jiayaoli99/netflix-homepage-clone/preview/demo.gif?raw=true)
+![Demo](https://github.com/jiayao99/netflix-homepage-clone/blob/main/preview/demo.gif?raw=true)
